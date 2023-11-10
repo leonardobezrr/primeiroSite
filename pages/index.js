@@ -4,12 +4,12 @@ import {useState} from 'react';
 function Home (){
     return (
     <div>
-        <h1>Home</h1>
+        <h1>Primeiro Site WEB</h1>
         <Contador></Contador>
     </div>
     )
 }
-a
+
 function Contador(){
 
     const [contador,setContador] = useState(1);
