@@ -1,30 +1,14 @@
 
 import {useState} from 'react';
 
-function Home (){
+export default function Home (){
     return (
     <div>
-        <h1>Primeiro Site WEB</h1>
-        <h2>ihuu ta prestando</h2>
-        <Contador></Contador>
+        <h1>Site PWEB</h1>
+        <a href='https://github.com/leonardobezrr/PWEB1' target='blank'>GitHub</a>
+        <h3>Receitas</h3>
+        <a href='https://github.com/leonardobezrr/PWEB1/tree/main/next0' target='blank'>Receita 1</a>
     </div>
     )
 }
 
-function Contador(){
-
-    const [contador,setContador] = useState(1);
-
-    function adicionarContador(){
-        setContador(contador+1);
-    }
-
-    return(
-        <div>
-            <div>{contador}</div>
-            <button onClick={adicionarContador}>Adicionar Contador</button>
-        </div>
-    )
-}
-
-export default Home
