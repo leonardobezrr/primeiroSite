@@ -5,6 +5,7 @@ function Home (){
     return (
     <div>
         <h1>Primeiro Site WEB</h1>
+        <h2>ihuu ta prestando</h2>
         <Contador></Contador>
     </div>
     )
