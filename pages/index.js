@@ -8,6 +8,8 @@ export default function Home (){
         <a href='https://github.com/leonardobezrr/PWEB1' target='blank'>GitHub</a>
         <h3>Receitas</h3>
         <a href='https://github.com/leonardobezrr/PWEB1/tree/main/next0/pages/receita1' target='blank'>Receita 1</a>
+        <a href='https://github.com/leonardobezrr/PWEB1/tree/main/next0/pages/receita2' target='blank'>Receita 2</a>
+        <a href='https://github.com/leonardobezrr/PWEB1/tree/main/next0/pages/receita3' target='blank'>Receita 3</a>
     </div>
     )
 }
