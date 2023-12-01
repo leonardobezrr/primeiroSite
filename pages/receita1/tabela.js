@@ -1,4 +1,4 @@
-export function Tabela() {
+export default function Tabela() {
     return(
         <table>
             <thead>

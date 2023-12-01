@@ -1,4 +1,4 @@
-import {Tabela} from "./tabela.js"
+import Tabela from "./tabela.js"
 
 export default function Principal (){
     return (

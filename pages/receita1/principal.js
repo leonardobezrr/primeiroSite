@@ -1,4 +1,4 @@
-import {Tabela} from "./tabela";
+import Tabela from "./tabela";
 
 export default function Home (){
     return (
