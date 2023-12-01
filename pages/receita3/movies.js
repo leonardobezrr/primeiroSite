@@ -55,7 +55,7 @@ export default function Movies({ initialData }) {
 }
 
 export async function getServerSideProps(context) {
-  const res = await fetch(`http://www.omdbapi.com/?apikey=4e779fd4&s=bagdad`);
+  const res = await fetch(`http://www.omdbapi.com/?apikey=4e779fd4&s=one piece`);
   const initialData = await res.json();
 
   return {
