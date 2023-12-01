@@ -6,7 +6,7 @@ export default function Principal (){
             <h1>
                 Nova Página
             </h1>
-            <MariaPrea nome="Prea"/>
+            <MariaPrea nome="Prea "/>
             <JosePrea/>
             <Tabela/>
         </div>
