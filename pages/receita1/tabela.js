@@ -1,0 +1,32 @@
+export function Tabela() {
+    return(
+        <table>
+            <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    Telefone
+                </th>
+                <th>
+                    Cidade
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    Leo
+                </td>
+                <td>
+                    84999814724
+                </td>
+                <td>
+                    Caicó
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    )
+}
