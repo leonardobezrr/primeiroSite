@@ -10,7 +10,7 @@ export default function Movies({ initialData }) {
       return;
     }
   
-    const res = await fetch(`http://www.omdbapi.com/?apikey=4e779fd4&s=${searchTerm}`);
+    const res = await fetch(`https://www.omdbapi.com/?apikey=4e779fd4&s=${searchTerm}`);
     const newData = await res.json();
   
     if (newData.Search && newData.Search.length > 0) {
