@@ -10,7 +10,7 @@ async function fetcher(url) {
 
 export default function Movies2() {
   const { data, error } = useSWR(
-    "http://www.omdbapi.com/?apikey=4e779fd4&s=cafe",
+    "https://www.omdbapi.com/?apikey=4e779fd4&s=one piece",
     fetcher
   );
 
